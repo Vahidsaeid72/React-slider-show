@@ -1,13 +1,7 @@
-import Accordion from "./Accordion/Accordion";
-
+import Slider from "./slider-show/slider";
 
 const App = () => {
+  return <Slider />;
+};
 
-  return ( 
-  <div>
-    <Accordion/>
-   </div> 
-  );
-}
- 
 export default App;
